@@ -10,6 +10,8 @@ int volatile message_index = 0;
 
 void setup() {
   delay (2500); // Startup Delay
+
+  pinMode(13, OUTPUT);  // Blink LED
   
   pinMode(PIN_DAT, OUTPUT);  
   pinMode(PIN_CLK, INPUT);   
